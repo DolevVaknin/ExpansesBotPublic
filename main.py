@@ -2,7 +2,7 @@ import telebot
 import datetime
 import csv
 
-bot = telebot.TeleBot("5869585883:AAFQYQ4rXwDd5BcYC-bsIZpCoefRBwM54Uw")
+bot = telebot.TeleBot("5869585883:AAFQYQ4rXwDd5BcYC-bsIZpCoefRBwM54Uw", threaded=False)
 date = datetime.date.today()
 amount = ""
 waster = ""
